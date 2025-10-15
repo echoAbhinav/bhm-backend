@@ -10,7 +10,7 @@ const HISTORY_FILE = path.join(__dirname, "history.json");
 // Middleware
 app.use(
   cors({
-    origin: "http://localhost:5174", // Allow only requests from this origin
+    origin: "https://870d2f9d429a.ngrok-free.app", // Allow only requests from this origin
     methods: ["GET", "POST"], // Allow only specific HTTP methods
   })
 );
